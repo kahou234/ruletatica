@@ -191,7 +191,7 @@ export default function RuletaticaApp() {
       <Atmosphere />
       <header className="relative z-10 mb-[clamp(2.5rem,8vh,5rem)] animate-rise text-center">
         <p className="m-0 font-display text-[clamp(1.65rem,4.5vw,2.15rem)] font-medium leading-none tracking-[-0.03em] text-ink">
-          Ruletática
+          RuletaTica
         </p>
         <h1 className="mt-1.5 text-[clamp(0.82rem,1.6vw,0.95rem)] font-normal tracking-[0.01em] text-muted">
           Historia de Costa Rica
