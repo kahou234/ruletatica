@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #f4e8d6;
+  --muted: rgba(244, 232, 214, 0.68);
+  --accent: #c47a4a;
+  --accent-bright: #e0925c;
+  --research: #6fc3d8;
+  color-scheme: dark;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(244, 232, 214, 0.22) #0d0f12;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #0d0f12;
+  color: var(--ink);
+}
+
+body {
+  background: transparent;
+}
+
+body {
+  font-family: var(--font-body), "Avenir Next", "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(90% 70% at 15% 10%, rgba(196, 122, 74, 0.28), transparent 55%),
+    radial-gradient(70% 60% at 85% 20%, rgba(46, 107, 94, 0.32), transparent 50%),
+    radial-gradient(80% 50% at 50% 100%, rgba(28, 58, 72, 0.5), transparent 60%),
+    linear-gradient(165deg, #14181c 0%, #0d0f12 45%, #0b1014 100%);
+}
+
+.atmosphere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.45;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+}
+
+.pill {
+  box-shadow: inset 0 0 0 1px rgba(244, 232, 214, 0.18);
+}
+
+.timer-ring {
+  --p: 0;
+  width: min(62vw, 52vh, 380px);
+  height: min(62vw, 52vh, 380px);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at center, #12161a 62%, transparent 63%),
+    conic-gradient(var(--ring, var(--accent)) calc(var(--p) * 1turn), rgba(244, 232, 214, 0.12) 0);
+}
+
+.btn-primary,
+.btn-secondary {
+  appearance: none;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: 0.01em;
+  border: none;
+  border-radius: 999px;
+  padding: 0.9rem 1.35rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.2s, color 0.2s, opacity 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-primary:not(:disabled):hover,
+.btn-secondary:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary:not(:disabled):active,
+.btn-secondary:not(:disabled):active {
+  transform: translateY(1px);
+}
+
+.btn-primary:focus-visible,
+.btn-secondary:focus-visible {
+  outline: 2px solid var(--accent-bright);
+  outline-offset: 3px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #1a1612;
+  box-shadow: 0 10px 28px rgba(196, 122, 74, 0.28);
+}
+
+.btn-primary:not(:disabled):hover {
+  background: var(--accent-bright);
+}
+
+.btn-secondary {
+  color: var(--ink);
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px rgba(244, 232, 214, 0.28);
+}
+
+.btn-secondary:not(:disabled):hover {
+  background: rgba(244, 232, 214, 0.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-rise,
+  .animate-rise-delay,
+  .animate-topic-in,
+  .animate-tick-flash,
+  .animate-overlay-in,
+  .animate-pulse-done,
+  .animate-blink {
+    animation: none !important;
+  }
+}

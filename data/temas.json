@@ -1,0 +1,332 @@
+[
+  {
+    "id": "isla-del-coco",
+    "titulo": "El tesoro de la Isla del Coco",
+    "epoca": "Siglo XIX",
+    "sinopsis": "Piratas, mapas cifrados y expediciones fallidas convirtieron a un parque nacional en el mito más caro de Costa Rica. Nadie ha encontrado el oro de Benito Bonito… o al menos nadie lo ha contado.",
+    "preguntas": [
+      "¿Quiénes afirmaron haber enterrado tesoros en la isla y qué pruebas dejaron?",
+      "¿Por qué el gobierno acabó prohibiendo las cacerías de tesoro?",
+      "¿Qué hallaron las expediciones más serias y qué sigue sin explicarse?"
+    ]
+  },
+  {
+    "id": "robo-virgen-1950",
+    "titulo": "El robo de la Virgen de los Ángeles",
+    "epoca": "1950",
+    "sinopsis": "En 1950 desapareció la imagen más sagrada del país. La noticia recorrió Cartago como un relámpago: ¿sacrilegio, chantaje o un golpe de efecto político en plena posguerra civil?",
+    "preguntas": [
+      "¿Cómo se ejecutó el robo y en cuánto tiempo recuperaron la imagen?",
+      "¿Quiénes fueron señalados y qué pruebas se presentaron?",
+      "¿Qué reveló el caso sobre fe, policía y rumor en la Costa Rica de 1950?"
+    ]
+  },
+  {
+    "id": "halley-1910",
+    "titulo": "El pánico del cometa Halley en Cartago",
+    "epoca": "1910",
+    "sinopsis": "Se dijo que el gas de la cola del cometa envenenaría la Tierra. En Cartago, aún temblando por el terremoto, la gente compró “antídotos”, rezó en masa y miró al cielo como si fuera el fin.",
+    "preguntas": [
+      "¿Qué rumores científicos y religiosos se mezclaron en 1910?",
+      "¿Cómo cubrió la prensa costarricense el paso del cometa?",
+      "¿Qué conexión hubo entre el pánico celeste y la ciudad recién destruida?"
+    ]
+  },
+  {
+    "id": "guerra-hitler",
+    "titulo": "El día que Costa Rica le declaró la guerra a Hitler",
+    "epoca": "1941",
+    "sinopsis": "Un país sin ejército formal se alineó contra el Eje. Hubo listas de “extranjeros peligrosos”, confiscaciones y un teatro de guerra que casi nadie asocia con el istmo.",
+    "preguntas": [
+      "¿Qué empujó a San José a declarar la guerra al Eje?",
+      "¿Cómo se trató a las comunidades alemana, italiana y japonesa?",
+      "¿Qué papel jugó Costa Rica en la logística aliada del Caribe?"
+    ]
+  },
+  {
+    "id": "guerra-de-la-liga",
+    "titulo": "La Guerra de la Liga",
+    "epoca": "1835",
+    "sinopsis": "Cuatro ciudades contra San José: un duelo de campanarios, milicias y orgullo provincial. El resultado fijó la capital… y sembró rencores que aún se escuchan en chistes de pueblo.",
+    "preguntas": [
+      "¿Por qué Cartago, Heredia y Alajuela se aliaron contra San José?",
+      "¿Qué se disputaba realmente: la capital, el poder o el café?",
+      "¿Cómo cambió el mapa político después de la derrota de la Liga?"
+    ]
+  },
+  {
+    "id": "abolicion-ejercito",
+    "titulo": "La abolición del ejército en 1948",
+    "epoca": "1948",
+    "sinopsis": "Figueres entregó las llaves del Cuartel Bellavista y dijo que el país invertiría en escuelas. El gesto es leyenda: detrás hay una guerra civil, venganzas y un cálculo de poder.",
+    "preguntas": [
+      "¿Qué quedó del aparato militar después del decreto?",
+      "¿Fue un acto idealista o una forma de desarmar a los rivales?",
+      "¿Cómo se construyó el mito internacional de “el país sin ejército”?"
+    ]
+  },
+  {
+    "id": "guerra-civil-1948",
+    "titulo": "La Guerra Civil de 1948",
+    "epoca": "1948",
+    "sinopsis": "Cuarenta días que partieron familias. Fraude electoral, calderonistas, comunistas y el Ejército de Liberación Nacional: el origen violento de la Costa Rica “pacífica”.",
+    "preguntas": [
+      "¿Qué detonó el alzamiento después de las elecciones de 1948?",
+      "¿Quiénes combatieron en cada bando y qué papel tuvo el Pacto de Ochomogo?",
+      "¿Cuántos muertos hubo realmente y por qué el número sigue en disputa?"
+    ]
+  },
+  {
+    "id": "codo-del-diablo",
+    "titulo": "La masacre de Codo del Diablo",
+    "epoca": "1948",
+    "sinopsis": "En un recodo del ferrocarril al Atlántico aparecieron cuerpos de dirigentes comunistas. El crimen de posguerra que la memoria oficial prefirió dejar entre la maleza.",
+    "preguntas": [
+      "¿Quiénes fueron las víctimas y por qué las trasladaban?",
+      "¿Qué investigaciones se abrieron y cuáles se cerraron en silencio?",
+      "¿Cómo se recuerda (o se olvida) el caso en Limón y en San José?"
+    ]
+  },
+  {
+    "id": "juan-santamaria",
+    "titulo": "Juan Santamaría y la llama de Rivas",
+    "epoca": "1856",
+    "sinopsis": "Un tambor de Alajuela, una antorcha y un filibustero llamado Walker. ¿Héroe popular, invención liberal o ambas cosas? El mito nacional más fotografiado del país.",
+    "preguntas": [
+      "¿Qué fuentes contemporáneas mencionan a Santamaría y cuáles no?",
+      "¿Cómo usó el Estado liberal del siglo XIX esta figura?",
+      "¿Qué papel real tuvo Costa Rica en la derrota de William Walker?"
+    ]
+  },
+  {
+    "id": "esferas-diquis",
+    "titulo": "Las esferas de piedra del Diquís",
+    "epoca": "Periodo Chiriquí",
+    "sinopsis": "Cientos de bolas perfectas en el Delta del Diquís. Calendario, estatus, mapa cósmico o poder territorial: la arqueología aún debate para qué se pulieron durante siglos.",
+    "preguntas": [
+      "¿Cómo se fabricaron esferas de hasta 2,5 metros con herramientas de piedra?",
+      "¿Qué contextos funerarios y de alineación se han documentado?",
+      "¿Por qué tantas esferas fueron movidas, rotas o usadas como adorno de jardín?"
+    ]
+  },
+  {
+    "id": "anexion-nicoya",
+    "titulo": "La anexión del Partido de Nicoya",
+    "epoca": "1824",
+    "sinopsis": "Guanacaste eligió a Costa Rica frente a Nicaragua en un cabildo que todavía se celebra cada 25 de julio. Detrás del folklor hay fronteras fluidas, élites ganaderas y un pleito que nunca murió del todo.",
+    "preguntas": [
+      "¿Quién votó en 1824 y quién quedó fuera de esa decisión?",
+      "¿Qué ofreció Costa Rica que Nicaragua no pudo igualar?",
+      "¿Cómo reaparece esta historia en los conflictos fronterizos posteriores?"
+    ]
+  },
+  {
+    "id": "minor-keith",
+    "titulo": "Minor Keith y el ferrocarril al Atlántico",
+    "epoca": "1871–1890",
+    "sinopsis": "Miles de muertes, contratos leoninos y el nacimiento de un imperio bananero. El tren que “unió” el Valle Central con Limón también vendió el país a una compañía extranjera.",
+    "preguntas": [
+      "¿Por qué el ferrocarril costó tantas vidas y de dónde venían los trabajadores?",
+      "¿Qué tierras y privilegios recibió Keith a cambio de terminar la vía?",
+      "¿Cómo nació de ese trato la United Fruit en Costa Rica?"
+    ]
+  },
+  {
+    "id": "huelga-bananera-1934",
+    "titulo": "La huelga bananera de 1934",
+    "epoca": "1934",
+    "sinopsis": "En las fincas del Atlántico, obreros jamaiquinos y mestizos pararon a la United Fruit. Fue una de las huelgas más grandes de Centroamérica… y un laboratorio del Partido Comunista.",
+    "preguntas": [
+      "¿Cuáles eran las demandas y cómo respondió la compañía?",
+      "¿Qué papel tuvieron Carlos Luis Fallas y el Partido Comunista?",
+      "¿Por qué la huelga cambió (o no) las condiciones en las bananeras?"
+    ]
+  },
+  {
+    "id": "terremoto-cartago-1910",
+    "titulo": "El terremoto que borró Cartago",
+    "epoca": "1910",
+    "sinopsis": "El 4 de mayo de 1910 la antigua capital se vino abajo. Ruinas, éxodo y la decisión de no reconstruir igual: el sismo que convirtió a Cartago en ciudad de memoria.",
+    "preguntas": [
+      "¿Por qué Cartago era tan vulnerable y qué normas nacieron después?",
+      "¿Cómo se reorganizó el poder entre San José y la vieja metrópoli?",
+      "¿Qué queda hoy de la ciudad previa al 4 de mayo?"
+    ]
+  },
+  {
+    "id": "tomas-guardia",
+    "titulo": "El golpe de Tomás Guardia",
+    "epoca": "1870",
+    "sinopsis": "Un militar liberal tomó el poder, fusiló constituciones y modernizó el Estado a la fuerza. Cárcel, ferrocarril y café: la dictadura que muchos llaman “progreso”.",
+    "preguntas": [
+      "¿Cómo llegó Guardia al poder y a quiénes desplazó?",
+      "¿Qué reformas impulsó y a qué costo político?",
+      "¿Por qué su figura sigue dividiendo a historiadores liberales y críticos?"
+    ]
+  },
+  {
+    "id": "braulio-carrillo",
+    "titulo": "Braulio Carrillo, el eterno dictador",
+    "epoca": "1838–1842",
+    "sinopsis": "Quiso una Costa Rica ordenada, con caminos y leyes, y se coronó “jefe vitalicio”. Lo derrocaron, lo asesinaron en el exilio y luego le pusieron el nombre a la carretera al Atlántico.",
+    "preguntas": [
+      "¿Qué proyecto de Estado tenía Carrillo y por qué rompió con la Federación?",
+      "¿Quién lo derrocó y quién lo mató en el Salvador?",
+      "¿Cómo pasó de villano a prócer en los libros de texto?"
+    ]
+  },
+  {
+    "id": "walker-filibusteros",
+    "titulo": "William Walker a las puertas del país",
+    "epoca": "1856–1857",
+    "sinopsis": "Un aventurero sureño soñó una Centroamérica esclavista. Costa Rica marchó al norte, pagó con sangre en Santa Rosa y Rivas, y descubrió que la geopolítica también se juega en una hacienda.",
+    "preguntas": [
+      "¿Por qué Walker era una amenaza directa para Costa Rica?",
+      "¿Qué ocurrió realmente en Santa Rosa y en la segunda campaña?",
+      "¿Cómo influyeron Estados Unidos y Gran Bretaña en el desenlace?"
+    ]
+  },
+  {
+    "id": "7-noviembre-1889",
+    "titulo": "El 7 de noviembre de 1889",
+    "epoca": "1889",
+    "sinopsis": "Una elección, un pueblo en la calle y el ejército que no disparó. Costa Rica cuenta esa noche como el nacimiento de la democracia… con matices que los manuales suelen recortar.",
+    "preguntas": [
+      "¿Qué estaba en juego entre los liberales rivales de 1889?",
+      "¿Fue un triunfo popular o un pacto de élites bajo presión?",
+      "¿Por qué se conmemora esa fecha y no otras crisis electorales?"
+    ]
+  },
+  {
+    "id": "erupcion-irazu-1963",
+    "titulo": "La erupción del Irazú y la ceniza de 1963",
+    "epoca": "1963–1965",
+    "sinopsis": "San José amanecía gris. Techos se hundían, el ganado tosía y Kennedy visitó un país cubierto de polvo. El volcán convirtió la modernidad sesentera en un invierno de ceniza.",
+    "preguntas": [
+      "¿Cómo afectó la erupción a la economía agrícola y urbana?",
+      "¿Qué medidas de emergencia se improvisaron en la capital?",
+      "¿Qué vínculo tuvo la visita de John F. Kennedy con el desastre?"
+    ]
+  },
+  {
+    "id": "isla-calero",
+    "titulo": "El conflicto de Isla Calero",
+    "epoca": "2010–2015",
+    "sinopsis": "Dragas, banderas y un humedal en la corte de La Haya. Un islote casi deshabitado puso a Costa Rica y Nicaragua al borde de una crisis que se peleó con mapas, no con tanques.",
+    "preguntas": [
+      "¿Qué dice el tratado Cañas-Jerez sobre el río San Juan?",
+      "¿Cómo se usó el dragado como hecho político?",
+      "¿Qué falló la CIJ y qué quedó pendiente en la frontera norte?"
+    ]
+  },
+  {
+    "id": "cementazo",
+    "titulo": "El Cementazo",
+    "epoca": "2016–2017",
+    "sinopsis": "Un crédito, una cementera china y una red de diputados, ministros y empresarios. El escándalo que hizo de “conflictos de interés” una frase cotidiana en Costa Rica.",
+    "preguntas": [
+      "¿Cuál era el negocio y por qué involucró al Banco de Costa Rica?",
+      "¿Qué revelaron los chats, las visitas y las comisiones legislativas?",
+      "¿Qué cambió —y qué no— en la política después del escándalo?"
+    ]
+  },
+  {
+    "id": "ice-alcatel",
+    "titulo": "El caso ICE-Alcatel",
+    "epoca": "2004",
+    "sinopsis": "Coimas, expresidentes y una telefónica francesa. El país que se creía excepción ética se miró al espejo y encontró maletines. La corrupción dejó de ser un rumor de pasillo.",
+    "preguntas": [
+      "¿Cómo operaba el esquema de sobornos en las compras del ICE?",
+      "¿Qué expresidentes fueron señalados y cuál fue el desenlace judicial?",
+      "¿Qué impacto tuvo el caso en la confianza hacia la Segunda República?"
+    ]
+  },
+  {
+    "id": "pacto-ochomogo",
+    "titulo": "El Pacto de Ochomogo",
+    "epoca": "1948",
+    "sinopsis": "En un alto de montaña, Figueres y Manuel Mora negociaron el fin de la guerra. Comunistas, socialdemócratas y un documento que explica por qué 1948 no fue solo una victoria militar.",
+    "preguntas": [
+      "¿Qué se prometió a cada bando en Ochomogo?",
+      "¿Por qué el pacto se rompió tan rápido en la Junta Fundadora?",
+      "¿Qué nos dice esa negociación sobre las Garantías Sociales?"
+    ]
+  },
+  {
+    "id": "united-fruit",
+    "titulo": "United Fruit: el estado dentro del Estado",
+    "epoca": "Siglo XX",
+    "sinopsis": "Muelles, hospitales, ferrocarriles y policía propia. En el Caribe, una compañía mandaba más que el gobierno. La “república bananera” no era un chiste: era un organigrama.",
+    "preguntas": [
+      "¿Qué privilegios fiscales y territoriales tuvo la compañía?",
+      "¿Cómo segmentó racialmente el trabajo en Limón?",
+      "¿Cuándo y por qué se quebró su hegemonía en Costa Rica?"
+    ]
+  },
+  {
+    "id": "cinchona",
+    "titulo": "Cinchona: el pueblo que el terremoto se llevó",
+    "epoca": "2009",
+    "sinopsis": "El 8 de enero de 2009 un sismo deshizo Cinchona. Barro, desaparecidos y un pueblo que hoy es mirador de ruinas. No es historia antigua: es memoria viva del riesgo volcánico.",
+    "preguntas": [
+      "¿Por qué Cinchona estaba donde no debía estar?",
+      "¿Cómo gestionó el Estado el rescate y el reasentamiento?",
+      "¿Qué lecciones de ordenamiento territorial dejó el desastre?"
+    ]
+  },
+  {
+    "id": "marcelino-garcia",
+    "titulo": "Marcelino García Flamenco",
+    "epoca": "1919",
+    "sinopsis": "Un maestro salvadoreño, una dictadura tica y un fusilamiento que encendió a Centroamérica. La historia de García Flamenco es la de la escuela como trinchera.",
+    "preguntas": [
+      "¿Qué hacía un maestro salvadoreño enfrentando a Tinoco?",
+      "¿Cómo se usó su muerte en la caída de la dictadura?",
+      "¿Por qué su nombre sigue en escuelas y por qué casi nadie cuenta el resto?"
+    ]
+  },
+  {
+    "id": "tinoco",
+    "titulo": "La dictadura de los hermanos Tinoco",
+    "epoca": "1917–1919",
+    "sinopsis": "Golpe, censura, petróleo y una primera dama que incendió el diario de la oposición. Dos años que desmienten la idea de que Costa Rica nunca conoció tirano.",
+    "preguntas": [
+      "¿Cómo se justificó el golpe de 1917 y quiénes lo apoyaron al inicio?",
+      "¿Qué papel tuvo el petróleo y la diplomacia estadounidense?",
+      "¿Cómo cayeron los Tinoco y qué pasó con sus archivos?"
+    ]
+  },
+  {
+    "id": "teatro-nacional",
+    "titulo": "El impuesto al café y el Teatro Nacional",
+    "epoca": "1897",
+    "sinopsis": "Un palacio de oro y mármol pagado con un gravamen al grano. El Teatro Nacional es joya y factura: la oligarquía cafetalera quiso Europa en San José… y la levantó sobre el saco de café.",
+    "preguntas": [
+      "¿Quiénes pagaron realmente el teatro y quiénes lo estrenaron?",
+      "¿Qué decía eso del proyecto “civilizador” liberal?",
+      "¿Cómo se relaciona el edificio con la imagen internacional del país?"
+    ]
+  },
+  {
+    "id": "limón-1920",
+    "titulo": "Limón, Marcus Garvey y el Caribe negro",
+    "epoca": "1910–1930",
+    "sinopsis": "En las calles de Limón se leía The Negro World y se soñaba África. El west indian costa-ricense no fue un “apéndice” del Valle Central: fue una modernidad atlántica propia.",
+    "preguntas": [
+      "¿Cómo llegó y se organizó la comunidad jamaiquina en Limón?",
+      "¿Qué eco tuvo el garveyismo en los muelles y las fincas?",
+      "¿Por qué el Estado del Valle Central trató a Limón como frontera interna?"
+    ]
+  },
+  {
+    "id": "oro-tisingal",
+    "titulo": "Las minas de Tisingal y el oro perdido",
+    "epoca": "Colonia–siglo XIX",
+    "sinopsis": "Una mina legendaria entre Talamanca y el Pacífico Sur. Conquistadores, indígenas y aventureros buscaron vetas que aparecen en crónicas… y se esfuman en el mapa.",
+    "preguntas": [
+      "¿Qué dicen las fuentes coloniales sobre Tisingal o Tisingales?",
+      "¿Qué relación tiene el mito con los pueblos bribri y cabécar?",
+      "¿Por qué el oro “perdido” sigue alimentando expediciones y estafas?"
+    ]
+  }
+]
