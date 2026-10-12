@@ -329,4 +329,334 @@
       "¿Por qué el oro “perdido” sigue alimentando expediciones y estafas?"
     ]
   }
-]
+,
+  {
+    "id": "rebelion-pablo-presbere",
+    "titulo": "La rebelión de Pablo Presbere",
+    "epoca": "1709",
+    "sinopsis": "En las selvas de Talamanca, el líder indígena encabezó una sublevación armada contra los frailes y soldados españoles para frenar el desarraigo. Terminó fusilado y decapitado en Cartago.",
+    "preguntas": [
+      "¿Qué detonó el levantamiento contra las misiones franciscanas en Talamanca?",
+      "¿Cómo se organizaron los pueblos indígenas para expulsar a los colonizadores?",
+      "¿Por qué se considera a Presbere un símbolo de resistencia anticolonial?"
+    ]
+  },
+  {
+    "id": "caso-fischel-calderon",
+    "titulo": "El escándalo Caja-Fischel",
+    "epoca": "2004",
+    "sinopsis": "Comisiones ilegales por la compra de equipo médico finlandés terminaron arrastrando a un expresidente a la cárcel. El caso que sacudió la moral institucional de la CCSS.",
+    "preguntas": [
+      "¿Cómo operaba el desvío de fondos a través del préstamo finlandés?",
+      "¿Qué condenas judiciales se dictaron contra políticos y empresarios?",
+      "¿Cómo transformó este caso los controles sobre compras públicas en salud?"
+    ]
+  },
+  {
+    "id": "invasiones-calderonistas-1955",
+    "titulo": "La invasión contrarrevolucionaria de 1955",
+    "epoca": "1955",
+    "sinopsis": "Fuerzas leales a Calderón Guardia invadieron desde Nicaragua con apoyo de Anastasio Somoza y aviones de guerra. Un país sin ejército tuvo que movilizar voluntarios para defender la frontera.",
+    "preguntas": [
+      "¿Qué papel jugaron Somoza y Marcos Pérez Jiménez en el financiamiento de la invasión?",
+      "¿Cómo repelió el gobierno costarricense el ataque aéreo sin tener fuerzas armadas?",
+      "¿Qué intervención tuvo la OEA en la resolución del conflicto fronterizo?"
+    ]
+  },
+  {
+    "id": "naufragio-gran-antilla",
+    "titulo": "El naufragio del vapor La Gran Antilla",
+    "epoca": "1905",
+    "sinopsis": "En las costas del Caribe, un vapor con cientos de trabajadores e inmigrantes se hundió en circunstancias dramáticas, dejando historias de supervivencia y mitos marítimos en Limón.",
+    "preguntas": [
+      "¿Cuáles fueron las causas del siniestro marítimo frente al litoral caribeño?",
+      "¿Qué impacto tuvo la pérdida humana en la comunidad portuaria de Limón?",
+      "¿Cómo cubrieron las autoridades y la prensa de la época las labores de rescate?"
+    ]
+  },
+  {
+    "id": "batalla-santa-rosa",
+    "titulo": "La Batalla de Santa Rosa",
+    "epoca": "1856",
+    "sinopsis": "En apenas 14 minutos, las tropas costarricenses expulsaron a la avanzada de filibusteros de la hacienda en Guanacaste, asestando el primer golpe psicológico a William Walker.",
+    "preguntas": [
+      "¿Quién comandaba la vanguardia costarricense que tomó por asalto la Casona?",
+      "¿Qué importancia logística y táctica tuvo esta victoria relámpago?",
+      "¿Cómo se organizó el ejército costarricense para llegar a pie hasta Guanacaste?"
+    ]
+  },
+  {
+    "id": "motin-alajuela-1919",
+    "titulo": "La quema de 'La Información' y la caída de Tinoco",
+    "epoca": "1919",
+    "sinopsis": "Estudiantes y maestras salieron a las calles de San José contra la tiranía tinoquista. La multitud incendió el periódico oficial de la dictadura y desató el colapso del régimen.",
+    "preguntas": [
+      "¿Qué papel desempeñaron las maestras y los estudiantes en las revueltas cívicas?",
+      "¿Por qué el edificio del diario La Información fue el blanco principal de la ira popular?",
+      "¿Qué sucesos precipitaron la huida y el asesinato posterior de los hermanos Tinoco?"
+    ]
+  },
+  {
+    "id": "fusilamiento-morazan",
+    "titulo": "El fusilamiento de Francisco Morazán",
+    "epoca": "1842",
+    "sinopsis": "El caudillo unionista llegó a Costa Rica para usarla de trampolín bélico y reconstruir la Federación Centroamericana. Su sueño terminó en el Parque Central de San José frente a un pelotón.",
+    "preguntas": [
+      "¿Por qué los costarricenses apoyaron inicialmente a Morazán para luego sublevarse?",
+      "¿Qué ocurrió durante el sitio de San José que forzó su rendición?",
+      "¿Cuáles fueron sus últimas palabras antes de ordenar su propio disparo?"
+    ]
+  },
+  {
+    "id": "guerra-coto-1921",
+    "titulo": "La Guerra de Coto",
+    "epoca": "1921",
+    "sinopsis": "Una disputa limítrofe en Pueblo Nuevo de Coto llevó a Costa Rica y Panamá a un enfrentamiento armado. Hubo movilización patriótica, escaramuzas y la intervención diplomática de EE.UU.",
+    "preguntas": [
+      "¿Qué tratado de límites previo generó la confusión territorial en la cuenca de Coto?",
+      "¿Cómo se desarrolló la ofensiva militar tica en el sur y el contraataque panameño?",
+      "¿Por qué intervino Estados Unidos para frenar la escalada bélica entre ambos países?"
+    ]
+  },
+  {
+    "id": "escandalo-banco-anglo",
+    "titulo": "El cierre del Banco Anglo Costarricense",
+    "epoca": "1994",
+    "sinopsis": "El banco más antiguo del país quebró en medio de operaciones dudosas con deuda venezolana y una red de préstamos descontrolados. Una decisión presidencial histórica le puso candado para siempre.",
+    "preguntas": [
+      "¿Qué eran las inversiones en títulos venezolanos y quién autorizó esas compras?",
+      "¿Por qué el presidente José María Figueres Olsen decretó la disolución de la entidad?",
+      "¿Qué consecuencias financieras y penales dejó la quiebra en la banca nacional?"
+    ]
+  },
+  {
+    "id": "terremoto-limon-1991",
+    "titulo": "El terremoto de Limón y el alzamiento de la costa",
+    "epoca": "1991",
+    "sinopsis": "Un sismo de 7.7 grados quebró carreteras, derribó puentes y levantó literalmente el fondo marino casi dos metros en el Caribe sur, cambiando la geografía del litoral en segundos.",
+    "preguntas": [
+      "¿Qué fenómeno geológico provocó que los arrecifes y playas emergieran del agua?",
+      "¿Cómo afectó el colapso vial la exportación de banano y el aislamiento de las comunidades?",
+      "¿Qué transformaciones provocó el desastre en el código sísmico del país?"
+    ]
+  },
+  {
+    "id": "huelga-alcoa-1970",
+    "titulo": "La lucha contra ALCOA",
+    "epoca": "1970",
+    "sinopsis": "Jóvenes y universitarios sitiaron la Asamblea Legislativa en contra de un contrato minero con una multinacional de aluminio. Piedras, gases lacrimógenos y el despertar del movimiento estudiantil.",
+    "preguntas": [
+      "¿Qué condiciones le concedía el Estado a la compañía Alcoa sobre los yacimientos de bauxita?",
+      "¿Cómo se desataron los disturbios del 24 de abril de 1970 en Cuesta de Moras?",
+      "¿Por qué se considera este conflicto el origen del ambientalismo moderno en el país?"
+    ]
+  },
+  {
+    "id": "crimen-cruz-de-alajuelita",
+    "titulo": "La masacre de la Cruz de Alajuelita",
+    "epoca": "1986",
+    "sinopsis": "Siete mujeres que peregrinaban hacia la Cruz fueron asesinadas en la montaña. El crimen más aterrador de la crónica roja tica desató una cacería de sospechosos, errores judiciales y el mito del 'Psicópata'.",
+    "preguntas": [
+      "¿Qué falló en la preservación de la escena del crimen y la recolección de indicios?",
+      "¿Por qué se acusó a sospechosos que luego resultaron absueltos o asesinados?",
+      "¿Cómo se vinculó este ataque no resuelto a la estela de crímenes del Psicópata?"
+    ]
+  },
+  {
+    "id": "peste-del-colera-1856",
+    "titulo": "La epidemia del cólera morbus",
+    "epoca": "1856",
+    "sinopsis": "Tras la victoria de Rivas, un enemigo microscópico diezmó al ejército costarricense y a casi el 10% de la población nacional. Carretas llenas de cadáveres marcaron el año más oscuro del siglo XIX.",
+    "preguntas": [
+      "¿Cómo contrajeron la bacteria los soldados ticos en territorio nicaragüense?",
+      "¿Qué medidas sanitarias desesperadas tomó el gobierno del presidente Juan Rafael Mora?",
+      "¿Qué consecuencias demográficas y económicas dejó la mortandad en las familias campesinas?"
+    ]
+  },
+  {
+    "id": "garantias-sociales-1943",
+    "titulo": "La alianza de las Garantías Sociales",
+    "epoca": "1940–1943",
+    "sinopsis": "Un presidente burgués (Calderón Guardia), el arzobispo metropolitano (Monseñor Sanabria) y el líder comunista (Manuel Mora) crearon la CCSS y el Código de Trabajo. Una alianza impensable que redefinió el país.",
+    "preguntas": [
+      "¿Cómo lograron conciliar sus ideologías la Iglesia Católica y el Partido Comunista?",
+      "¿Qué sectores oligárquicos se opusieron ferozmente a las reformas laborales?",
+      "¿Por qué esta alianza sentó las tensiones políticas que explotaron en la guerra de 1948?"
+    ]
+  },
+  {
+    "id": "voto-femenino-1949",
+    "titulo": "La conquista del voto femenino",
+    "epoca": "1949–1950",
+    "sinopsis": "Décadas de marchas, cartas y debates liderados por la Liga Feminista culminaron en la Constitución de 1949. En 1950, Bernarda Vásquez Méndez emitió el primer sufragio femenino de la historia nacional.",
+    "preguntas": [
+      "¿Quiénes fueron las figuras clave detrás de la Liga Feminista Costarricense?",
+      "¿Cuáles eran los argumentos machistas y conservadores para negar el derecho al voto?",
+      "¿En qué plebiscito comunal se ejerció el voto femenino por primera vez antes de una elección nacional?"
+    ]
+  },
+  {
+    "id": "combo-del-ice-2000",
+    "titulo": "Las protestas del 'Combo del ICE'",
+    "epoca": "2000",
+    "sinopsis": "Un proyecto para abrir los monopolios de telecomunicaciones y energía incendió el país durante semanas. Bloqueos de carreteras, universitarios y sindicatos forzaron al gobierno a archivar el proyecto.",
+    "preguntas": [
+      "¿Qué pretendía modificar el proyecto de ley conocido como el Combo del ICE?",
+      "¿Cómo se organizaron los bloqueos en rotondas y carreteras principales del país?",
+      "¿Qué impacto tuvo la presión popular en el Congreso y en la carrera de Miguel Ángel Rodríguez?"
+    ]
+  },
+  {
+    "id": "penal-san-lucas",
+    "titulo": "El presidio de la Isla San Lucas",
+    "epoca": "1873–1991",
+    "sinopsis": "Un 'infierno en el paraíso' donde se enviaba a los presos más peligrosos del país. Las torturas en 'El Disco', las fugas en aguas con tiburones y los muros tatuados con sangre inspiraron La isla de los hombres solos.",
+    "preguntas": [
+      "¿Quién fundó el presidio insular y bajo qué condiciones de confinamiento operaba?",
+      "¿Qué revelaron los relatos testimoniales del escritor José León Sánchez?",
+      "¿Por qué se decidió su clausura definitiva en 1991?"
+    ]
+  },
+  {
+    "id": "fusilamiento-juan-rafael-mora",
+    "titulo": "El fusilamiento de Juan Rafael Mora Porras",
+    "epoca": "1860",
+    "sinopsis": "El prócer y libertador que derrotó a Walker regresó del destierro para recuperar el gobierno en la Batalla de La Angostura. Fue capturado y fusilado sumariamente frente al estero de Puntarenas.",
+    "preguntas": [
+      "¿Qué grupos oligárquicos tramaron el derrocamiento original de Mora Porras en 1859?",
+      "¿Cómo se llevó a cabo el desembarco en Puntarenas y el posterior juicio militar relámpago?",
+      "¿Por qué tardó décadas en restaurarse el honor del Benemérito de la Patria?"
+    ]
+  },
+  {
+    "id": "escandalo-fcca-1980",
+    "titulo": "La quema de urnas y el fraude electoral de 1944",
+    "epoca": "1944",
+    "sinopsis": "Elecciones manchadas por denuncias de votos dobles, boletas robadas e intimidación militar. El triunfo de Teodoro Picado caldeó los ánimos que desencadenarían el estallido bélico cuatro años después.",
+    "preguntas": [
+      "¿Qué evidencias de fraude documentaron los partidos de oposición?",
+      "¿Qué papel jugó la fuerza pública y los grupos paramilitares en las votaciones?",
+      "¿Cómo influyó el resultado en la radicalización de figuras como Figueres Ferrer?"
+    ]
+  },
+  {
+    "id": "tragedia-virilla-1926",
+    "titulo": "El desastre ferroviario del río Virilla",
+    "epoca": "1926",
+    "sinopsis": "Tres vagones de un tren repleto de devotos que viajaban a Cartago descarrilaron y cayeron a un abismo de decenas de metros sobre el cañón del río Virilla. Murieron más de 300 personas.",
+    "preguntas": [
+      "¿Cuáles fueron los fallos mecánicos y de sobrepeso que provocaron el descarrilamiento?",
+      "¿Cómo se organizaron las labores de rescate en el precipicio sin equipo moderno?",
+      "¿Por qué se le considera la mayor tragedia en la historia del transporte en Centroamérica?"
+    ]
+  },
+  {
+    "id": "batalla-ochomogo-1823",
+    "titulo": "La Batalla de Ochomogo",
+    "epoca": "1823",
+    "sinopsis": "Imperialistas de Cartago y Heredia querían unirse al Imperio Mexicano de Iturbide; republicanos de San José y Alajuela querían independencia absoluta. La batalla en el cerro definió a San José como capital.",
+    "preguntas": [
+      "¿Qué posturas políticas enfrentaron al bando imperialista contra el republicano?",
+      "¿Quién comandó las fuerzas josefinas durante el combate en el cerro de Ochomogo?",
+      "¿Cómo obligó esta victoria el traslado del gobierno y las armas a San José?"
+    ]
+  },
+  {
+    "id": "secuestro-corte-suprema-1993",
+    "titulo": "El secuestro de la Corte Suprema por el Comando de la Muerte",
+    "epoca": "1993",
+    "sinopsis": "Cinco hombres armados con fusiles y explosivos tomaron como rehenes a 19 magistrados de la Corte Suprema de Justicia durante varios días, exigiendo millones de dólares y un avión para huir.",
+    "preguntas": [
+      "¿Quiénes integraban el autodenominado 'Comando de la Muerte'?",
+      "¿Cómo lograron ingresar con un arsenal a la sede del Poder Judicial?",
+      "¿Cómo concluyó la operación de negociación y rescate en el aeropuerto?"
+    ]
+  },
+  {
+    "id": "erupcion-arenal-1968",
+    "titulo": "La trágica explosión del volcán Arenal",
+    "epoca": "1968",
+    "sinopsis": "Un cerro que se consideraba dormido e inofensivo explotó repentinamente con una fuerza descomunal. Bombas de lava y flujos piroclásticos sepultaron los poblados de Pueblo Nuevo y Tabacón.",
+    "preguntas": [
+      "¿Por qué los habitantes locales no reconocían el cerro como un volcán activo?",
+      "¿Cuál fue el saldo de víctimas y la devastación de tierras agropecuarias?",
+      "¿Cómo transformó esta tragedia la vulcanología y el monitoreo geológico en el país?"
+    ]
+  },
+  {
+    "id": "huelga-brazos-caidos-1947",
+    "titulo": "La Huelga de Brazos Caídos",
+    "epoca": "1947",
+    "sinopsis": "Comercios cerrados, bancos paralizados y mujeres marchando con ollas vacías para exigir garantías electorales puras al gobierno de Picado. Quince días de paro civil que preludiaron la guerra civil.",
+    "preguntas": [
+      "¿Qué sectores de la sociedad civil y empresarial impulsaron el paro general?",
+      "¿Cómo reprimió el gobierno las manifestaciones callejeras en el centro de San José?",
+      "¿Qué fue el Tribunal Nacional Electoral que nació a raíz de este acuerdo?"
+    ]
+  },
+  {
+    "id": "caceria-psicopata-1990",
+    "titulo": "El misterio sin resolver de 'El Psicópata'",
+    "epoca": "1986–1996",
+    "sinopsis": "Durante una década, un asesino en serie acechó en las sombras de las orillas boscosas de San José, atacando parejas con una subametralladora M3. Dejó 19 víctimas y la policía jamás logró acusarlo legalmente.",
+    "preguntas": [
+      "¿Cuál era el modus operandi y la firma balística que conectaba todos los crímenes?",
+      "¿Qué sospechoso con entrenamiento militar estuvo en la mira de las autoridades?",
+      "¿Por qué prescribieron judicialmente los homicidios sin una sola condena?"
+    ]
+  },
+  {
+    "id": "referendum-tlc-2007",
+    "titulo": "El referéndum del TLC con Estados Unidos",
+    "epoca": "2007",
+    "sinopsis": "El primer referéndum de la historia del país dividió a la sociedad civil en dos bandos enconados: el 'SÍ' y el 'NO'. Campañas agresivas, el polémico 'memorándum del miedo' y un resultado de infarto.",
+    "preguntas": [
+      "¿Qué transformaciones económicas e institucionales implicaba el tratado comercial?",
+      "¿Qué escándalo provocó la filtración del memorándum de Kevin Casas y Fernando Sánchez?",
+      "¿Cuál fue el porcentaje exacto que inclinó la balanza a favor del tratado en las urnas?"
+    ]
+  },
+  {
+    "id": "caso-quiroga-1938",
+    "titulo": "El misterioso asesinato de Rogelio Fernández Güell",
+    "epoca": "1918",
+    "sinopsis": "Un poeta, periodista y diputado opositor se alzó en armas en el sur contra la tiranía de los Tinoco. En su retirada fue emboscado y degollado en Buenos Aires de Puntarenas por fuerzas del gobierno.",
+    "preguntas": [
+      "¿Cómo fundó Fernández Güell su movimiento armado rebelde en la zona sur?",
+      "¿Qué militares del régimen tinoquista fueron señalados como autores materiales del crimen?",
+      "¿Cómo se transformó su martirio en una bandera contra la dictadura militar?"
+    ]
+  },
+  {
+    "id": "guerra-espinar-1830",
+    "titulo": "La invasión de José María Alfaro y los motines federalistas",
+    "epoca": "1830–1835",
+    "sinopsis": "Antes de consolidar el Estado soberano, Costa Rica enfrentó conspiraciones y roces internos sobre subordinarse o no a las órdenes de las tropas federales de Guatemala.",
+    "preguntas": [
+      "¿Por qué Costa Rica mantuvo una postura de relativo aislamiento de la Federación?",
+      "¿Qué papel jugaron las élites locales en resistir el envío de tropas al exterior?",
+      "¿Cómo sentaron estas pugnas las bases para la posterior separación definitiva del istmo?"
+    ]
+  },
+  {
+    "id": "crisis-inflacionaria-carazo",
+    "titulo": "La gran crisis económica de 1980–1982",
+    "epoca": "1980–1982",
+    "sinopsis": "La devaluación brutal del colón, filas interminables por comida y el default de la deuda externa frente al FMI. La administración Carazo Odio vivió el colapso del modelo económico benefactor.",
+    "preguntas": [
+      "¿Qué combinación de precios internacionales del petróleo y café detonó la crisis?",
+      "¿Por qué el presidente Rodrigo Carazo expulsó formalmente a la misión del FMI?",
+      "¿Cómo afectó a las familias costarricenses la devaluación del colón de 8.60 a más de 40 colones por dólar?"
+    ]
+  },
+  {
+    "id": "conflicto-con-la-contra-1985",
+    "titulo": "La guerra encubierta de la Contra en la frontera norte",
+    "epoca": "1980–1987",
+    "sinopsis": "Pistas de aterrizaje clandestinas, agentes de la CIA y campamentos de la guerrilla antisandinista operando secretamente en el norte de Costa Rica, amenazando con arrastrar al país a la guerra civil de Nicaragua.",
+    "preguntas": [
+      "¿Qué revelaron las investigaciones del escándalo Irán-Contras sobre pistas ilegales en Guanacaste?",
+      "¿Qué incidente armado en Las Crucitas provocó bajas en la Guardia Civil costarricense?",
+      "¿Cómo logró el Plan de Paz de Esquipulas neutralizar la presencia militar en territorio nacional?"
+    ]
+  }]
