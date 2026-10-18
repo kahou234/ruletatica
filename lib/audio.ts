@@ -35,23 +35,26 @@ function envelope(
   gain.gain.exponentialRampToValueAtTime(0.0001, now + attack + release);
 }
 
-/** Tick/clic que se suaviza conforme el odómetro frena. `speed` va de 1 (rápido) a 0 (casi parado). */
+/** Tick/clic percusivo con volumen duplicado y pegada extra. */
 export function playTick(speed: number) {
   const c = getCtx();
   if (!c) return;
   const osc = c.createOscillator();
   const gain = c.createGain();
-  const filter = c.createBiquadFilter();
-  filter.type = "highpass";
-  filter.frequency.value = 2200;
-osc.type = "triangle";
-osc.frequency.value = 950;
-envelope(c, gain, 0.22, 0.002, 0.045);
-  osc.connect(filter);
-  filter.connect(gain);
+
+  // Onda cuadrada y barrido de frecuencia para impacto mecánico fuerte
+  osc.type = "square";
+  osc.frequency.setValueAtTime(1200, c.currentTime);
+  osc.frequency.exponentialRampToValueAtTime(300, c.currentTime + 0.04);
+
+  // Ganancia al doble (1.8) con caída seca
+  envelope(c, gain, 1.8, 0.001, 0.05);
+
+  osc.connect(gain);
   gain.connect(c.destination);
+
   osc.start();
-  osc.stop(c.currentTime + 0.08);
+  osc.stop(c.currentTime + 0.06);
 }
 
 /** Tono suave al detenerse el tema. */
