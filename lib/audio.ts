@@ -35,26 +35,29 @@ function envelope(
   gain.gain.exponentialRampToValueAtTime(0.0001, now + attack + release);
 }
 
-/** Tick/clic percusivo con volumen duplicado y pegada extra. */
+/** Tick/clic idéntico al original en timbre y textura, pero con el volumen maximizado. */
 export function playTick(speed: number) {
   const c = getCtx();
   if (!c) return;
   const osc = c.createOscillator();
   const gain = c.createGain();
+  const filter = c.createBiquadFilter();
 
-  // Onda cuadrada y barrido de frecuencia para impacto mecánico fuerte
-  osc.type = "square";
-  osc.frequency.setValueAtTime(1200, c.currentTime);
-  osc.frequency.exponentialRampToValueAtTime(300, c.currentTime + 0.04);
+  filter.type = "highpass";
+  filter.frequency.value = 2200;
 
-  // Ganancia al doble (1.8) con caída seca
-  envelope(c, gain, 1.8, 0.001, 0.05);
+  osc.type = "triangle";
+  osc.frequency.value = 950;
 
-  osc.connect(gain);
+  // Solo se amplifica el pico a 0.90 (antes 0.22) manteniendo tiempos exactos
+  envelope(c, gain, 0.90, 0.002, 0.045);
+
+  osc.connect(filter);
+  filter.connect(gain);
   gain.connect(c.destination);
 
   osc.start();
-  osc.stop(c.currentTime + 0.06);
+  osc.stop(c.currentTime + 0.08);
 }
 
 /** Tono suave al detenerse el tema. */
