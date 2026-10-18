@@ -4,6 +4,7 @@ export type Tema = {
   epoca: string;
   sinopsis: string;
   preguntas: string[];
+  categoria?: string;
 };
 
 export type PracticeMode = "reto" | "express";
