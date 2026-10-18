@@ -1,9 +1,5 @@
 import type { Tema } from "./types";
 
-function easeOutCubic(t: number) {
-  return 1 - (1 - t) ** 3;
-}
-
 export function pickOther(temas: Tema[], currentId?: string | null) {
   const pool = temas.filter((t) => t.id !== currentId);
   const source = pool.length ? pool : temas;
@@ -15,13 +11,17 @@ type SpinHandlers = {
   onDone: (tema: Tema) => void;
 };
 
-/** Gira títulos ~2.5s con desaceleración ease-out y entrega un tema final distinto. */
+/**
+ * Ruleta con ráfaga sostenida y frenado seco:
+ * - 0% a 80%: Ráfaga ultra rápida sostenida (~2.4s).
+ * - 80% a 100%: Freno seco y enérgico (~0.6s) sin quedarse pegada.
+ */
 export function runSpin(
   temas: Tema[],
   currentId: string | null | undefined,
   handlers: SpinHandlers
 ): () => void {
-  const duration = 5500;
+  const duration = 3000; // 3.0s total: ráfaga tensa y remate al instante
   const final = pickOther(temas, currentId);
   const start = performance.now();
   let lastTick = 0;
@@ -31,23 +31,26 @@ export function runSpin(
 
   const tick = (now: number) => {
     if (cancelled) return;
-    const t = Math.min(1, (now - start) / duration);
-    const eased = easeOutCubic(t);
-    const interval = 22 + Math.pow(eased, 2.2) * 260;
+    const progress = Math.min(1, (now - start) / duration);
+
+    let interval: number;
+    if (progress < 0.80) {
+      interval = 26; // Ráfaga ametralladora
+    } else {
+      // Solo el último 20% frena con un tope máximo de 95ms (firme y seco)
+      const brakeProgress = (progress - 0.80) / 0.20;
+      interval = 26 + brakeProgress * 69; // Llega máximo a 95ms
+    }
+
     if (now - lastTick >= interval) {
       lastTick = now;
-      const speed = 1 - eased;
-      const next =
-      t > 0.94
-          ? final
-          : pickOther(
-              temas,
-              lastId
-            );
+      const speed = 1 - progress;
+      const next = progress >= 0.97 ? final : pickOther(temas, lastId);
       lastId = next.id;
       handlers.onTick(next, speed);
     }
-    if (t < 1) {
+
+    if (progress < 1) {
       raf = requestAnimationFrame(tick);
     } else {
       handlers.onDone(final);
