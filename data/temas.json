@@ -3,6 +3,7 @@
     "id": "isla-del-coco",
     "titulo": "El tesoro de la Isla del Coco",
     "epoca": "Siglo XIX",
+    "categoria": "lugares",
     "sinopsis": "Piratas, mapas cifrados y expediciones fallidas convirtieron a un parque nacional en el mito más caro de Costa Rica. Nadie ha encontrado el oro de Benito Bonito… o al menos nadie lo ha contado.",
     "preguntas": [
       "¿Quiénes afirmaron haber enterrado tesoros en la isla y qué pruebas dejaron?",
@@ -14,6 +15,7 @@
     "id": "robo-virgen-1950",
     "titulo": "El robo de la Virgen de los Ángeles",
     "epoca": "1950",
+    "categoria": "crimenes",
     "sinopsis": "En 1950 desapareció la imagen más sagrada del país. La noticia recorrió Cartago como un relámpago: ¿sacrilegio, chantaje o un golpe de efecto político en plena posguerra civil?",
     "preguntas": [
       "¿Cómo se ejecutó el robo y en cuánto tiempo recuperaron la imagen?",
@@ -25,6 +27,7 @@
     "id": "halley-1910",
     "titulo": "El pánico del cometa Halley en Cartago",
     "epoca": "1910",
+    "categoria": "historia",
     "sinopsis": "Se dijo que el gas de la cola del cometa envenenaría la Tierra. En Cartago, aún temblando por el terremoto, la gente compró “antídotos”, rezó en masa y miró al cielo como si fuera el fin.",
     "preguntas": [
       "¿Qué rumores científicos y religiosos se mezclaron en 1910?",
@@ -36,6 +39,7 @@
     "id": "guerra-hitler",
     "titulo": "El día que Costa Rica le declaró la guerra a Hitler",
     "epoca": "1941",
+    "categoria": "historia",
     "sinopsis": "Un país sin ejército formal se alineó contra el Eje. Hubo listas de “extranjeros peligrosos”, confiscaciones y un teatro de guerra que casi nadie asocia con el istmo.",
     "preguntas": [
       "¿Qué empujó a San José a declarar la guerra al Eje?",
@@ -47,6 +51,7 @@
     "id": "guerra-de-la-liga",
     "titulo": "La Guerra de la Liga",
     "epoca": "1835",
+    "categoria": "historia",
     "sinopsis": "Cuatro ciudades contra San José: un duelo de campanarios, milicias y orgullo provincial. El resultado fijó la capital… y sembró rencores que aún se escuchan en chistes de pueblo.",
     "preguntas": [
       "¿Por qué Cartago, Heredia y Alajuela se aliaron contra San José?",
@@ -58,6 +63,7 @@
     "id": "abolicion-ejercito",
     "titulo": "La abolición del ejército en 1948",
     "epoca": "1948",
+    "categoria": "historia",
     "sinopsis": "Figueres entregó las llaves del Cuartel Bellavista y dijo que el país invertiría en escuelas. El gesto es leyenda: detrás hay una guerra civil, venganzas y un cálculo de poder.",
     "preguntas": [
       "¿Qué quedó del aparato militar después del decreto?",
@@ -69,6 +75,7 @@
     "id": "guerra-civil-1948",
     "titulo": "La Guerra Civil de 1948",
     "epoca": "1948",
+    "categoria": "historia",
     "sinopsis": "Cuarenta días que partieron familias. Fraude electoral, calderonistas, comunistas y el Ejército de Liberación Nacional: el origen violento de la Costa Rica “pacífica”.",
     "preguntas": [
       "¿Qué detonó el alzamiento después de las elecciones de 1948?",
@@ -80,6 +87,7 @@
     "id": "codo-del-diablo",
     "titulo": "La masacre de Codo del Diablo",
     "epoca": "1948",
+    "categoria": "crimenes",
     "sinopsis": "En un recodo del ferrocarril al Atlántico aparecieron cuerpos de dirigentes comunistas. El crimen de posguerra que la memoria oficial prefirió dejar entre la maleza.",
     "preguntas": [
       "¿Quiénes fueron las víctimas y por qué las trasladaban?",
@@ -91,6 +99,7 @@
     "id": "juan-santamaria",
     "titulo": "Juan Santamaría y la llama de Rivas",
     "epoca": "1856",
+    "categoria": "historia",
     "sinopsis": "Un tambor de Alajuela, una antorcha y un filibustero llamado Walker. ¿Héroe popular, invención liberal o ambas cosas? El mito nacional más fotografiado del país.",
     "preguntas": [
       "¿Qué fuentes contemporáneas mencionan a Santamaría y cuáles no?",
@@ -102,6 +111,7 @@
     "id": "esferas-diquis",
     "titulo": "Las esferas de piedra del Diquís",
     "epoca": "Periodo Chiriquí",
+    "categoria": "lugares",
     "sinopsis": "Cientos de bolas perfectas en el Delta del Diquís. Calendario, estatus, mapa cósmico o poder territorial: la arqueología aún debate para qué se pulieron durante siglos.",
     "preguntas": [
       "¿Cómo se fabricaron esferas de hasta 2,5 metros con herramientas de piedra?",
@@ -113,6 +123,7 @@
     "id": "anexion-nicoya",
     "titulo": "La anexión del Partido de Nicoya",
     "epoca": "1824",
+    "categoria": "historia",
     "sinopsis": "Guanacaste eligió a Costa Rica frente a Nicaragua en un cabildo que todavía se celebra cada 25 de julio. Detrás del folklor hay fronteras fluidas, élites ganaderas y un pleito que nunca murió del todo.",
     "preguntas": [
       "¿Quién votó en 1824 y quién quedó fuera de esa decisión?",
@@ -124,6 +135,7 @@
     "id": "minor-keith",
     "titulo": "Minor Keith y el ferrocarril al Atlántico",
     "epoca": "1871–1890",
+    "categoria": "historia",
     "sinopsis": "Miles de muertes, contratos leoninos y el nacimiento de un imperio bananero. El tren que “unió” el Valle Central con Limón también vendió el país a una compañía extranjera.",
     "preguntas": [
       "¿Por qué el ferrocarril costó tantas vidas y de dónde venían los trabajadores?",
@@ -135,6 +147,7 @@
     "id": "huelga-bananera-1934",
     "titulo": "La huelga bananera de 1934",
     "epoca": "1934",
+    "categoria": "historia",
     "sinopsis": "En las fincas del Atlántico, obreros jamaiquinos y mestizos pararon a la United Fruit. Fue una de las huelgas más grandes de Centroamérica… y un laboratorio del Partido Comunista.",
     "preguntas": [
       "¿Cuáles eran las demandas y cómo respondió la compañía?",
@@ -146,6 +159,7 @@
     "id": "terremoto-cartago-1910",
     "titulo": "El terremoto que borró Cartago",
     "epoca": "1910",
+    "categoria": "lugares",
     "sinopsis": "El 4 de mayo de 1910 la antigua capital se vino abajo. Ruinas, éxodo y la decisión de no reconstruir igual: el sismo que convirtió a Cartago en ciudad de memoria.",
     "preguntas": [
       "¿Por qué Cartago era tan vulnerable y qué normas nacieron después?",
@@ -157,6 +171,7 @@
     "id": "tomas-guardia",
     "titulo": "El golpe de Tomás Guardia",
     "epoca": "1870",
+    "categoria": "historia",
     "sinopsis": "Un militar liberal tomó el poder, fusiló constituciones y modernizó el Estado a la fuerza. Cárcel, ferrocarril y café: la dictadura que muchos llaman “progreso”.",
     "preguntas": [
       "¿Cómo llegó Guardia al poder y a quiénes desplazó?",
@@ -168,6 +183,7 @@
     "id": "braulio-carrillo",
     "titulo": "Braulio Carrillo, el eterno dictador",
     "epoca": "1838–1842",
+    "categoria": "historia",
     "sinopsis": "Quiso una Costa Rica ordenada, con caminos y leyes, y se coronó “jefe vitalicio”. Lo derrocaron, lo asesinaron en el exilio y luego le pusieron el nombre a la carretera al Atlántico.",
     "preguntas": [
       "¿Qué proyecto de Estado tenía Carrillo y por qué rompió con la Federación?",
@@ -179,6 +195,7 @@
     "id": "walker-filibusteros",
     "titulo": "William Walker a las puertas del país",
     "epoca": "1856–1857",
+    "categoria": "historia",
     "sinopsis": "Un aventurero sureño soñó una Centroamérica esclavista. Costa Rica marchó al norte, pagó con sangre en Santa Rosa y Rivas, y descubrió que la geopolítica también se juega en una hacienda.",
     "preguntas": [
       "¿Por qué Walker era una amenaza directa para Costa Rica?",
@@ -190,6 +207,7 @@
     "id": "7-noviembre-1889",
     "titulo": "El 7 de noviembre de 1889",
     "epoca": "1889",
+    "categoria": "historia",
     "sinopsis": "Una elección, un pueblo en la calle y el ejército que no disparó. Costa Rica cuenta esa noche como el nacimiento de la democracia… con matices que los manuales suelen recortar.",
     "preguntas": [
       "¿Qué estaba en juego entre los liberales rivales de 1889?",
@@ -201,9 +219,10 @@
     "id": "erupcion-irazu-1963",
     "titulo": "La erupción del Irazú y la ceniza de 1963",
     "epoca": "1963–1965",
+    "categoria": "lugares",
     "sinopsis": "San José amanecía gris. Techos se hundían, el ganado tosía y Kennedy visitó un país cubierto de polvo. El volcán convirtió la modernidad sesentera en un invierno de ceniza.",
     "preguntas": [
-      "¿Cómo afectó la erupción a la economía agrícola y urbana?",
+      "¿Cómo afectó a la economía agrícola y urbana?",
       "¿Qué medidas de emergencia se improvisaron en la capital?",
       "¿Qué vínculo tuvo la visita de John F. Kennedy con el desastre?"
     ]
@@ -212,6 +231,7 @@
     "id": "isla-calero",
     "titulo": "El conflicto de Isla Calero",
     "epoca": "2010–2015",
+    "categoria": "historia",
     "sinopsis": "Dragas, banderas y un humedal en la corte de La Haya. Un islote casi deshabitado puso a Costa Rica y Nicaragua al borde de una crisis que se peleó con mapas, no con tanques.",
     "preguntas": [
       "¿Qué dice el tratado Cañas-Jerez sobre el río San Juan?",
@@ -223,6 +243,7 @@
     "id": "cementazo",
     "titulo": "El Cementazo",
     "epoca": "2016–2017",
+    "categoria": "crimenes",
     "sinopsis": "Un crédito, una cementera china y una red de diputados, ministros y empresarios. El escándalo que hizo de “conflictos de interés” una frase cotidiana en Costa Rica.",
     "preguntas": [
       "¿Cuál era el negocio y por qué involucró al Banco de Costa Rica?",
@@ -234,6 +255,7 @@
     "id": "ice-alcatel",
     "titulo": "El caso ICE-Alcatel",
     "epoca": "2004",
+    "categoria": "crimenes",
     "sinopsis": "Coimas, expresidentes y una telefónica francesa. El país que se creía excepción ética se miró al espejo y encontró maletines. La corrupción dejó de ser un rumor de pasillo.",
     "preguntas": [
       "¿Cómo operaba el esquema de sobornos en las compras del ICE?",
@@ -245,6 +267,7 @@
     "id": "pacto-ochomogo",
     "titulo": "El Pacto de Ochomogo",
     "epoca": "1948",
+    "categoria": "historia",
     "sinopsis": "En un alto de montaña, Figueres y Manuel Mora negociaron el fin de la guerra. Comunistas, socialdemócratas y un documento que explica por qué 1948 no fue solo una victoria militar.",
     "preguntas": [
       "¿Qué se prometió a cada bando en Ochomogo?",
@@ -256,6 +279,7 @@
     "id": "united-fruit",
     "titulo": "United Fruit: el estado dentro del Estado",
     "epoca": "Siglo XX",
+    "categoria": "historia",
     "sinopsis": "Muelles, hospitales, ferrocarriles y policía propia. En el Caribe, una compañía mandaba más que el gobierno. La “república bananera” no era un chiste: era un organigrama.",
     "preguntas": [
       "¿Qué privilegios fiscales y territoriales tuvo la compañía?",
@@ -267,6 +291,7 @@
     "id": "cinchona",
     "titulo": "Cinchona: el pueblo que el terremoto se llevó",
     "epoca": "2009",
+    "categoria": "lugares",
     "sinopsis": "El 8 de enero de 2009 un sismo deshizo Cinchona. Barro, desaparecidos y un pueblo que hoy es mirador de ruinas. No es historia antigua: es memoria viva del riesgo volcánico.",
     "preguntas": [
       "¿Por qué Cinchona estaba donde no debía estar?",
@@ -278,6 +303,7 @@
     "id": "marcelino-garcia",
     "titulo": "Marcelino García Flamenco",
     "epoca": "1919",
+    "categoria": "historia",
     "sinopsis": "Un maestro salvadoreño, una dictadura tica y un fusilamiento que encendió a Centroamérica. La historia de García Flamenco es la de la escuela como trinchera.",
     "preguntas": [
       "¿Qué hacía un maestro salvadoreño enfrentando a Tinoco?",
@@ -289,6 +315,7 @@
     "id": "tinoco",
     "titulo": "La dictadura de los hermanos Tinoco",
     "epoca": "1917–1919",
+    "categoria": "historia",
     "sinopsis": "Golpe, censura, petróleo y una primera dama que incendió el diario de la oposición. Dos años que desmienten la idea de que Costa Rica nunca conoció tirano.",
     "preguntas": [
       "¿Cómo se justificó el golpe de 1917 y quiénes lo apoyaron al inicio?",
@@ -300,6 +327,7 @@
     "id": "teatro-nacional",
     "titulo": "El impuesto al café y el Teatro Nacional",
     "epoca": "1897",
+    "categoria": "lugares",
     "sinopsis": "Un palacio de oro y mármol pagado con un gravamen al grano. El Teatro Nacional es joya y factura: la oligarquía cafetalera quiso Europa en San José… y la levantó sobre el saco de café.",
     "preguntas": [
       "¿Quiénes pagaron realmente el teatro y quiénes lo estrenaron?",
@@ -311,6 +339,7 @@
     "id": "limón-1920",
     "titulo": "Limón, Marcus Garvey y el Caribe negro",
     "epoca": "1910–1930",
+    "categoria": "historia",
     "sinopsis": "En las calles de Limón se leía The Negro World y se soñaba África. El west indian costa-ricense no fue un “apéndice” del Valle Central: fue una modernidad atlántica propia.",
     "preguntas": [
       "¿Cómo llegó y se organizó la comunidad jamaiquina en Limón?",
@@ -322,18 +351,19 @@
     "id": "oro-tisingal",
     "titulo": "Las minas de Tisingal y el oro perdido",
     "epoca": "Colonia–siglo XIX",
+    "categoria": "lugares",
     "sinopsis": "Una mina legendaria entre Talamanca y el Pacífico Sur. Conquistadores, indígenas y aventureros buscaron vetas que aparecen en crónicas… y se esfuman en el mapa.",
     "preguntas": [
       "¿Qué dicen las fuentes coloniales sobre Tisingal o Tisingales?",
       "¿Qué relación tiene el mito con los pueblos bribri y cabécar?",
       "¿Por qué el oro “perdido” sigue alimentando expediciones y estafas?"
     ]
-  }
-,
+  },
   {
     "id": "rebelion-pablo-presbere",
     "titulo": "La rebelión de Pablo Presbere",
     "epoca": "1709",
+    "categoria": "historia",
     "sinopsis": "En las selvas de Talamanca, el líder indígena encabezó una sublevación armada contra los frailes y soldados españoles para frenar el desarraigo. Terminó fusilado y decapitado en Cartago.",
     "preguntas": [
       "¿Qué detonó el levantamiento contra las misiones franciscanas en Talamanca?",
@@ -345,6 +375,7 @@
     "id": "caso-fischel-calderon",
     "titulo": "El escándalo Caja-Fischel",
     "epoca": "2004",
+    "categoria": "crimenes",
     "sinopsis": "Comisiones ilegales por la compra de equipo médico finlandés terminaron arrastrando a un expresidente a la cárcel. El caso que sacudió la moral institucional de la CCSS.",
     "preguntas": [
       "¿Cómo operaba el desvío de fondos a través del préstamo finlandés?",
@@ -356,6 +387,7 @@
     "id": "invasiones-calderonistas-1955",
     "titulo": "La invasión contrarrevolucionaria de 1955",
     "epoca": "1955",
+    "categoria": "historia",
     "sinopsis": "Fuerzas leales a Calderón Guardia invadieron desde Nicaragua con apoyo de Anastasio Somoza y aviones de guerra. Un país sin ejército tuvo que movilizar voluntarios para defender la frontera.",
     "preguntas": [
       "¿Qué papel jugaron Somoza y Marcos Pérez Jiménez en el financiamiento de la invasión?",
@@ -367,6 +399,7 @@
     "id": "naufragio-gran-antilla",
     "titulo": "El naufragio del vapor La Gran Antilla",
     "epoca": "1905",
+    "categoria": "lugares",
     "sinopsis": "En las costas del Caribe, un vapor con cientos de trabajadores e inmigrantes se hundió en circunstancias dramáticas, dejando historias de supervivencia y mitos marítimos en Limón.",
     "preguntas": [
       "¿Cuáles fueron las causas del siniestro marítimo frente al litoral caribeño?",
@@ -378,6 +411,7 @@
     "id": "batalla-santa-rosa",
     "titulo": "La Batalla de Santa Rosa",
     "epoca": "1856",
+    "categoria": "historia",
     "sinopsis": "En apenas 14 minutos, las tropas costarricenses expulsaron a la avanzada de filibusteros de la hacienda en Guanacaste, asestando el primer golpe psicológico a William Walker.",
     "preguntas": [
       "¿Quién comandaba la vanguardia costarricense que tomó por asalto la Casona?",
@@ -389,6 +423,7 @@
     "id": "motin-alajuela-1919",
     "titulo": "La quema de 'La Información' y la caída de Tinoco",
     "epoca": "1919",
+    "categoria": "historia",
     "sinopsis": "Estudiantes y maestras salieron a las calles de San José contra la tiranía tinoquista. La multitud incendió el periódico oficial de la dictadura y desató el colapso del régimen.",
     "preguntas": [
       "¿Qué papel desempeñaron las maestras y los estudiantes en las revueltas cívicas?",
@@ -400,6 +435,7 @@
     "id": "fusilamiento-morazan",
     "titulo": "El fusilamiento de Francisco Morazán",
     "epoca": "1842",
+    "categoria": "historia",
     "sinopsis": "El caudillo unionista llegó a Costa Rica para usarla de trampolín bélico y reconstruir la Federación Centroamericana. Su sueño terminó en el Parque Central de San José frente a un pelotón.",
     "preguntas": [
       "¿Por qué los costarricenses apoyaron inicialmente a Morazán para luego sublevarse?",
@@ -411,6 +447,7 @@
     "id": "guerra-coto-1921",
     "titulo": "La Guerra de Coto",
     "epoca": "1921",
+    "categoria": "historia",
     "sinopsis": "Una disputa limítrofe en Pueblo Nuevo de Coto llevó a Costa Rica y Panamá a un enfrentamiento armado. Hubo movilización patriótica, escaramuzas y la intervención diplomática de EE.UU.",
     "preguntas": [
       "¿Qué tratado de límites previo generó la confusión territorial en la cuenca de Coto?",
@@ -422,6 +459,7 @@
     "id": "escandalo-banco-anglo",
     "titulo": "El cierre del Banco Anglo Costarricense",
     "epoca": "1994",
+    "categoria": "crimenes",
     "sinopsis": "El banco más antiguo del país quebró en medio de operaciones dudosas con deuda venezolana y una red de préstamos descontrolados. Una decisión presidencial histórica le puso candado para siempre.",
     "preguntas": [
       "¿Qué eran las inversiones en títulos venezolanos y quién autorizó esas compras?",
@@ -433,6 +471,7 @@
     "id": "terremoto-limon-1991",
     "titulo": "El terremoto de Limón y el alzamiento de la costa",
     "epoca": "1991",
+    "categoria": "lugares",
     "sinopsis": "Un sismo de 7.7 grados quebró carreteras, derribó puentes y levantó literalmente el fondo marino casi dos metros en el Caribe sur, cambiando la geografía del litoral en segundos.",
     "preguntas": [
       "¿Qué fenómeno geológico provocó que los arrecifes y playas emergieran del agua?",
@@ -444,6 +483,7 @@
     "id": "huelga-alcoa-1970",
     "titulo": "La lucha contra ALCOA",
     "epoca": "1970",
+    "categoria": "historia",
     "sinopsis": "Jóvenes y universitarios sitiaron la Asamblea Legislativa en contra de un contrato minero con una multinacional de aluminio. Piedras, gases lacrimógenos y el despertar del movimiento estudiantil.",
     "preguntas": [
       "¿Qué condiciones le concedía el Estado a la compañía Alcoa sobre los yacimientos de bauxita?",
@@ -455,6 +495,7 @@
     "id": "crimen-cruz-de-alajuelita",
     "titulo": "La masacre de la Cruz de Alajuelita",
     "epoca": "1986",
+    "categoria": "crimenes",
     "sinopsis": "Siete mujeres que peregrinaban hacia la Cruz fueron asesinadas en la montaña. El crimen más aterrador de la crónica roja tica desató una cacería de sospechosos, errores judiciales y el mito del 'Psicópata'.",
     "preguntas": [
       "¿Qué falló en la preservación de la escena del crimen y la recolección de indicios?",
@@ -466,6 +507,7 @@
     "id": "peste-del-colera-1856",
     "titulo": "La epidemia del cólera morbus",
     "epoca": "1856",
+    "categoria": "historia",
     "sinopsis": "Tras la victoria de Rivas, un enemigo microscópico diezmó al ejército costarricense y a casi el 10% de la población nacional. Carretas llenas de cadáveres marcaron el año más oscuro del siglo XIX.",
     "preguntas": [
       "¿Cómo contrajeron la bacteria los soldados ticos en territorio nicaragüense?",
@@ -477,6 +519,7 @@
     "id": "garantias-sociales-1943",
     "titulo": "La alianza de las Garantías Sociales",
     "epoca": "1940–1943",
+    "categoria": "historia",
     "sinopsis": "Un presidente burgués (Calderón Guardia), el arzobispo metropolitano (Monseñor Sanabria) y el líder comunista (Manuel Mora) crearon la CCSS y el Código de Trabajo. Una alianza impensable que redefinió el país.",
     "preguntas": [
       "¿Cómo lograron conciliar sus ideologías la Iglesia Católica y el Partido Comunista?",
@@ -488,6 +531,7 @@
     "id": "voto-femenino-1949",
     "titulo": "La conquista del voto femenino",
     "epoca": "1949–1950",
+    "categoria": "historia",
     "sinopsis": "Décadas de marchas, cartas y debates liderados por la Liga Feminista culminaron en la Constitución de 1949. En 1950, Bernarda Vásquez Méndez emitió el primer sufragio femenino de la historia nacional.",
     "preguntas": [
       "¿Quiénes fueron las figuras clave detrás de la Liga Feminista Costarricense?",
@@ -499,6 +543,7 @@
     "id": "combo-del-ice-2000",
     "titulo": "Las protestas del 'Combo del ICE'",
     "epoca": "2000",
+    "categoria": "historia",
     "sinopsis": "Un proyecto para abrir los monopolios de telecomunicaciones y energía incendió el país durante semanas. Bloqueos de carreteras, universitarios y sindicatos forzaron al gobierno a archivar el proyecto.",
     "preguntas": [
       "¿Qué pretendía modificar el proyecto de ley conocido como el Combo del ICE?",
@@ -510,6 +555,7 @@
     "id": "penal-san-lucas",
     "titulo": "El presidio de la Isla San Lucas",
     "epoca": "1873–1991",
+    "categoria": "lugares",
     "sinopsis": "Un 'infierno en el paraíso' donde se enviaba a los presos más peligrosos del país. Las torturas en 'El Disco', las fugas en aguas con tiburones y los muros tatuados con sangre inspiraron La isla de los hombres solos.",
     "preguntas": [
       "¿Quién fundó el presidio insular y bajo qué condiciones de confinamiento operaba?",
@@ -521,6 +567,7 @@
     "id": "fusilamiento-juan-rafael-mora",
     "titulo": "El fusilamiento de Juan Rafael Mora Porras",
     "epoca": "1860",
+    "categoria": "historia",
     "sinopsis": "El prócer y libertador que derrotó a Walker regresó del destierro para recuperar el gobierno en la Batalla de La Angostura. Fue capturado y fusilado sumariamente frente al estero de Puntarenas.",
     "preguntas": [
       "¿Qué grupos oligárquicos tramaron el derrocamiento original de Mora Porras en 1859?",
@@ -532,6 +579,7 @@
     "id": "escandalo-fcca-1980",
     "titulo": "La quema de urnas y el fraude electoral de 1944",
     "epoca": "1944",
+    "categoria": "historia",
     "sinopsis": "Elecciones manchadas por denuncias de votos dobles, boletas robadas e intimidación militar. El triunfo de Teodoro Picado caldeó los ánimos que desencadenarían el estallido bélico cuatro años después.",
     "preguntas": [
       "¿Qué evidencias de fraude documentaron los partidos de oposición?",
@@ -543,6 +591,7 @@
     "id": "tragedia-virilla-1926",
     "titulo": "El desastre ferroviario del río Virilla",
     "epoca": "1926",
+    "categoria": "crimenes",
     "sinopsis": "Tres vagones de un tren repleto de devotos que viajaban a Cartago descarrilaron y cayeron a un abismo de decenas de metros sobre el cañón del río Virilla. Murieron más de 300 personas.",
     "preguntas": [
       "¿Cuáles fueron los fallos mecánicos y de sobrepeso que provocaron el descarrilamiento?",
@@ -554,6 +603,7 @@
     "id": "batalla-ochomogo-1823",
     "titulo": "La Batalla de Ochomogo",
     "epoca": "1823",
+    "categoria": "historia",
     "sinopsis": "Imperialistas de Cartago y Heredia querían unirse al Imperio Mexicano de Iturbide; republicanos de San José y Alajuela querían independencia absoluta. La batalla en el cerro definió a San José como capital.",
     "preguntas": [
       "¿Qué posturas políticas enfrentaron al bando imperialista contra el republicano?",
@@ -565,6 +615,7 @@
     "id": "secuestro-corte-suprema-1993",
     "titulo": "El secuestro de la Corte Suprema por el Comando de la Muerte",
     "epoca": "1993",
+    "categoria": "crimenes",
     "sinopsis": "Cinco hombres armados con fusiles y explosivos tomaron como rehenes a 19 magistrados de la Corte Suprema de Justicia durante varios días, exigiendo millones de dólares y un avión para huir.",
     "preguntas": [
       "¿Quiénes integraban el autodenominado 'Comando de la Muerte'?",
@@ -576,6 +627,7 @@
     "id": "erupcion-arenal-1968",
     "titulo": "La trágica explosión del volcán Arenal",
     "epoca": "1968",
+    "categoria": "lugares",
     "sinopsis": "Un cerro que se consideraba dormido e inofensivo explotó repentinamente con una fuerza descomunal. Bombas de lava y flujos piroclásticos sepultaron los poblados de Pueblo Nuevo y Tabacón.",
     "preguntas": [
       "¿Por qué los habitantes locales no reconocían el cerro como un volcán activo?",
@@ -587,6 +639,7 @@
     "id": "huelga-brazos-caidos-1947",
     "titulo": "La Huelga de Brazos Caídos",
     "epoca": "1947",
+    "categoria": "historia",
     "sinopsis": "Comercios cerrados, bancos paralizados y mujeres marchando con ollas vacías para exigir garantías electorales puras al gobierno de Picado. Quince días de paro civil que preludiaron la guerra civil.",
     "preguntas": [
       "¿Qué sectores de la sociedad civil y empresarial impulsaron el paro general?",
@@ -598,6 +651,7 @@
     "id": "caceria-psicopata-1990",
     "titulo": "El misterio sin resolver de 'El Psicópata'",
     "epoca": "1986–1996",
+    "categoria": "crimenes",
     "sinopsis": "Durante una década, un asesino en serie acechó en las sombras de las orillas boscosas de San José, atacando parejas con una subametralladora M3. Dejó 19 víctimas y la policía jamás logró acusarlo legalmente.",
     "preguntas": [
       "¿Cuál era el modus operandi y la firma balística que conectaba todos los crímenes?",
@@ -609,6 +663,7 @@
     "id": "referendum-tlc-2007",
     "titulo": "El referéndum del TLC con Estados Unidos",
     "epoca": "2007",
+    "categoria": "historia",
     "sinopsis": "El primer referéndum de la historia del país dividió a la sociedad civil en dos bandos enconados: el 'SÍ' y el 'NO'. Campañas agresivas, el polémico 'memorándum del miedo' y un resultado de infarto.",
     "preguntas": [
       "¿Qué transformaciones económicas e institucionales implicaba el tratado comercial?",
@@ -620,6 +675,7 @@
     "id": "caso-quiroga-1938",
     "titulo": "El misterioso asesinato de Rogelio Fernández Güell",
     "epoca": "1918",
+    "categoria": "crimenes",
     "sinopsis": "Un poeta, periodista y diputado opositor se alzó en armas en el sur contra la tiranía de los Tinoco. En su retirada fue emboscado y degollado en Buenos Aires de Puntarenas por fuerzas del gobierno.",
     "preguntas": [
       "¿Cómo fundó Fernández Güell su movimiento armado rebelde en la zona sur?",
@@ -631,6 +687,7 @@
     "id": "guerra-espinar-1830",
     "titulo": "La invasión de José María Alfaro y los motines federalistas",
     "epoca": "1830–1835",
+    "categoria": "historia",
     "sinopsis": "Antes de consolidar el Estado soberano, Costa Rica enfrentó conspiraciones y roces internos sobre subordinarse o no a las órdenes de las tropas federales de Guatemala.",
     "preguntas": [
       "¿Por qué Costa Rica mantuvo una postura de relativo aislamiento de la Federación?",
@@ -642,6 +699,7 @@
     "id": "crisis-inflacionaria-carazo",
     "titulo": "La gran crisis económica de 1980–1982",
     "epoca": "1980–1982",
+    "categoria": "historia",
     "sinopsis": "La devaluación brutal del colón, filas interminables por comida y el default de la deuda externa frente al FMI. La administración Carazo Odio vivió el colapso del modelo económico benefactor.",
     "preguntas": [
       "¿Qué combinación de precios internacionales del petróleo y café detonó la crisis?",
@@ -653,10 +711,36 @@
     "id": "conflicto-con-la-contra-1985",
     "titulo": "La guerra encubierta de la Contra en la frontera norte",
     "epoca": "1980–1987",
+    "categoria": "historia",
     "sinopsis": "Pistas de aterrizaje clandestinas, agentes de la CIA y campamentos de la guerrilla antisandinista operando secretamente en el norte de Costa Rica, amenazando con arrastrar al país a la guerra civil de Nicaragua.",
     "preguntas": [
       "¿Qué revelaron las investigaciones del escándalo Irán-Contras sobre pistas ilegales en Guanacaste?",
       "¿Qué incidente armado en Las Crucitas provocó bajas en la Guardia Civil costarricense?",
       "¿Cómo logró el Plan de Paz de Esquipulas neutralizar la presencia militar en territorio nacional?"
     ]
-  }]
+  },
+  {
+    "id": "lan-parties-chepe",
+    "titulo": "La era dorada de los Cibers y LAN Parties de Chepe",
+    "epoca": "2000–2008",
+    "categoria": "gaming",
+    "sinopsis": "Salas llenas de monitores CRT oliendo a galletas y sudor. Los torneos clandestinos de Counter-Strike 1.6, StarCraft y las madrugadas enteras de 'amanecida' que fundaron la comunidad gamer tica.",
+    "preguntas": [
+      "¿Cuáles fueron los cibercafés más legendarios del centro de San José y San Pedro?",
+      "¿Cómo se organizaban los primeros clanes y torneos locales sin internet de alta velocidad?",
+      "¿Qué llevó a la decadencia de estos templos con la llegada del internet residencial?"
+    ]
+  },
+  {
+    "id": "nacimiento-esports-cr",
+    "titulo": "El nacimiento de la Liga Tica de Leyendas",
+    "epoca": "2015–2020",
+    "categoria": "gaming",
+    "sinopsis": "El salto de jugar en el cuarto con ping alto a llenar escenarios con equipos profesionales, casters locales y patrocinios. El camino de Costa Rica para ganarse un cupo en la escena competitiva de LoL.",
+    "preguntas": [
+      "¿Cómo nació la primera liga oficial estructurada de League of Legends en el país?",
+      "¿Quiénes fueron los jugadores y equipos pioneros que dieron el salto a ligas regionales?",
+      "¿Cuáles fueron los retos de profesionalización y viabilidad económica en el ecosistema tico?"
+    ]
+  }
+]
