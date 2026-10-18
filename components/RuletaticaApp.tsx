@@ -24,6 +24,8 @@ export default function RuletaticaApp() {
   const [duration, setDuration] = useState(0);
   const [paused, setPaused] = useState(false);
   const [notes, setNotes] = useState("");
+  const [readyToSpeak, setReadyToSpeak] = useState(false);
+
   const cancelSpin = useRef<(() => void) | null>(null);
   const timerRef = useRef<number | null>(null);
   const endAt = useRef<number>(0);
@@ -65,6 +67,7 @@ export default function RuletaticaApp() {
   const beginPhase = useCallback((next: "research" | "speak", seconds: number) => {
     clearTimer();
     setPaused(false);
+    setReadyToSpeak(false);
     setPhase(next);
     setDuration(seconds);
     setRemaining(seconds);
@@ -76,7 +79,8 @@ export default function RuletaticaApp() {
         clearTimer();
         if (phaseRef.current === "research") {
           playBell();
-          beginPhaseRef.current("speak", 60);
+          setReadyToSpeak(true);
+          setRemaining(0);
         } else if (phaseRef.current === "speak") {
           playAlarm();
           setPhase("done");
@@ -97,6 +101,7 @@ export default function RuletaticaApp() {
     if (phaseRef.current === "research" || phaseRef.current === "speak") return;
     unlockAudio();
     cancelSpin.current?.();
+    setReadyToSpeak(false);
     setPhase("spinning");
     setPreview(tema ?? pickOther(temas, null));
     cancelSpin.current = runSpin(temas, tema?.id, {
@@ -135,10 +140,18 @@ export default function RuletaticaApp() {
   const startResearch = () => {
     if (!tema) return;
     unlockAudio();
+    setReadyToSpeak(false);
     beginPhase("research", MODE_CONFIG[mode].researchSeconds);
   };
 
+  const startSpeaking = () => {
+    unlockAudio();
+    setReadyToSpeak(false);
+    beginPhase("speak", 60);
+  };
+
   const togglePause = () => {
+    if (readyToSpeak) return;
     if (paused) {
       endAt.current = Date.now() + leftWhenPaused.current * 1000;
       setPaused(false);
@@ -149,7 +162,8 @@ export default function RuletaticaApp() {
           clearTimer();
           if (phaseRef.current === "research") {
             playBell();
-            beginPhase("speak", 60);
+            setReadyToSpeak(true);
+            setRemaining(0);
           } else if (phaseRef.current === "speak") {
             playAlarm();
             setPhase("done");
@@ -167,7 +181,8 @@ export default function RuletaticaApp() {
     clearTimer();
     if (phase === "research") {
       playBell();
-      beginPhase("speak", 60);
+      setReadyToSpeak(true);
+      setRemaining(0);
     } else if (phase === "speak") {
       playAlarm();
       setPhase("done");
@@ -176,6 +191,7 @@ export default function RuletaticaApp() {
 
   const again = () => {
     clearTimer();
+    setReadyToSpeak(false);
     setPhase("idle");
     spin();
   };
@@ -233,18 +249,38 @@ export default function RuletaticaApp() {
       </main>
 
       {inTimer && tema && (
-        <TimerStage
-          tema={tema}
-          phase={phase === "done" ? "done" : phase === "speak" ? "speak" : "research"}
-          remaining={remaining}
-          duration={duration}
-          paused={paused}
-          onPause={togglePause}
-          onSkip={skipPhase}
-          onAgain={again}
-          notes={notes}
-          onNotes={persistNotes}
-        />
+        <div className="relative z-20 w-full flex flex-col items-center">
+          <TimerStage
+            tema={tema}
+            phase={phase === "done" ? "done" : phase === "speak" ? "speak" : "research"}
+            remaining={readyToSpeak ? 0 : remaining}
+            duration={duration}
+            paused={paused || readyToSpeak}
+            onPause={togglePause}
+            onSkip={skipPhase}
+            onAgain={again}
+            notes={notes}
+            onNotes={persistNotes}
+          />
+          {readyToSpeak && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4 animate-rise">
+              <div className="flex flex-col items-center max-w-sm w-full gap-4 p-6 rounded-2xl bg-[#1c1815] border border-amber-500/30 text-center shadow-2xl">
+                <span className="text-3xl">⏰</span>
+                <h3 className="text-xl font-medium text-ink">¡Tiempo de investigación terminado!</h3>
+                <p className="text-sm text-muted">
+                  Acomoda la cámara y respira hondo. El minuto de exposición comenzará cuando presiones el botón.
+                </p>
+                <button
+                  type="button"
+                  className="btn-primary w-full py-3 text-base font-semibold"
+                  onClick={startSpeaking}
+                >
+                  Comenzar exposición (1 min)
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
       )}
     </div>
   );
