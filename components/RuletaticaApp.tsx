@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import temasData from "@/data/temas.json";
 import { playAlarm, playBell, playLand, playTick, unlockAudio } from "@/lib/audio";
 import { pickOther, runSpin } from "@/lib/spin";
@@ -11,10 +11,19 @@ import ThemeDetails from "./ThemeDetails";
 import TimerStage from "./TimerStage";
 import TopicReel from "./TopicReel";
 
-const temas = temasData as Tema[];
+const todosLosTemas = temasData as Tema[];
 const NOTES_KEY = "ruletatica-notes";
 
+const MAZOS = [
+  { id: "todos", label: "🎲 Todos" },
+  { id: "historia", label: "🇨🇷 Historia" },
+  { id: "crimenes", label: "🔪 Crónica Roja" },
+  { id: "lugares", label: "📍 Lugares" },
+  { id: "gaming", label: "🎮 Gaming & Esports" },
+];
+
 export default function RuletaticaApp() {
+  const [mazoActivo, setMazoActivo] = useState<string>("todos");
   const [mode, setMode] = useState<PracticeMode>("reto");
   const [phase, setPhase] = useState<AppPhase>("idle");
   const [tema, setTema] = useState<Tema | null>(null);
@@ -34,6 +43,12 @@ export default function RuletaticaApp() {
   const beginPhaseRef = useRef<(next: "research" | "speak", seconds: number) => void>(
     () => undefined
   );
+
+  // Filtrado de temas según el mazo seleccionado
+  const temasFiltrados = useMemo(() => {
+    if (mazoActivo === "todos") return todosLosTemas;
+    return todosLosTemas.filter((t) => t.categoria === mazoActivo);
+  }, [mazoActivo]);
 
   useEffect(() => {
     phaseRef.current = phase;
@@ -99,15 +114,18 @@ export default function RuletaticaApp() {
   const spin = useCallback(() => {
     if (phaseRef.current === "spinning") return;
     if (phaseRef.current === "research" || phaseRef.current === "speak") return;
+    if (!temasFiltrados.length) return;
+
     unlockAudio();
     cancelSpin.current?.();
     setReadyToSpeak(false);
     setPhase("spinning");
-    setPreview(tema ?? pickOther(temas, null));
-    cancelSpin.current = runSpin(temas, tema?.id, {
+    setPreview(tema ?? pickOther(temasFiltrados, null));
+
+    cancelSpin.current = runSpin(temasFiltrados, tema?.id, {
       onTick: (next, speed) => {
         setPreview(next);
-        setNeighbor(pickOther(temas, next.id).titulo);
+        setNeighbor(pickOther(temasFiltrados, next.id).titulo);
         playTick(speed);
       },
       onDone: (finalTema) => {
@@ -117,7 +135,7 @@ export default function RuletaticaApp() {
         playLand();
       },
     });
-  }, [tema]);
+  }, [tema, temasFiltrados]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -205,7 +223,7 @@ export default function RuletaticaApp() {
   return (
     <div className="relative flex min-h-svh flex-col items-center overflow-x-hidden px-4 pb-10 pt-[max(1rem,env(safe-area-inset-top))]">
       <Atmosphere />
-      <header className="relative z-10 mb-[clamp(2.5rem,8vh,5rem)] animate-rise text-center">
+      <header className="relative z-10 mb-[clamp(1.5rem,5vh,3rem)] animate-rise text-center">
         <p className="m-0 font-display text-[clamp(1.65rem,4.5vw,2.15rem)] font-medium leading-none tracking-[-0.03em] text-ink">
           RuletaTica
         </p>
@@ -217,7 +235,38 @@ export default function RuletaticaApp() {
         </h1>
       </header>
 
-      <main className="relative z-10 flex w-full max-w-[720px] flex-1 animate-rise-delay flex-col items-center gap-[clamp(1.5rem,4vw,2.25rem)] text-center">
+      <main className="relative z-10 flex w-full max-w-[720px] flex-1 animate-rise-delay flex-col items-center gap-[clamp(1.2rem,3.5vw,2rem)] text-center">
+        {/* Selector de Mazos de Contenido */}
+        <div className="flex flex-wrap items-center justify-center gap-1.5 max-w-lg">
+          {MAZOS.map((m) => {
+            const activo = mazoActivo === m.id;
+            const count =
+              m.id === "todos"
+                ? todosLosTemas.length
+                : todosLosTemas.filter((t) => t.categoria === m.id).length;
+
+            return (
+              <button
+                key={m.id}
+                type="button"
+                disabled={busy || inTimer}
+                onClick={() => {
+                  setMazoActivo(m.id);
+                  setTema(null);
+                  setPreview(null);
+                }}
+                className={`px-3 py-1 text-xs rounded-full transition-all duration-200 border ${
+                  activo
+                    ? "bg-[rgba(244,232,214,0.14)] text-ink border-[rgba(244,232,214,0.25)] shadow-sm font-medium"
+                    : "bg-transparent text-muted border-transparent hover:text-ink hover:bg-[rgba(244,232,214,0.05)]"
+                } disabled:opacity-40 disabled:cursor-not-allowed`}
+              >
+                {m.label} <span className="opacity-60 text-[10px]">({count})</span>
+              </button>
+            );
+          })}
+        </div>
+
         <ModeSwitch mode={mode} onChange={setMode} disabled={busy || inTimer} />
 
         <TopicReel
@@ -244,7 +293,7 @@ export default function RuletaticaApp() {
           </button>
         </div>
         <p className="m-0 text-[0.78rem] text-muted">
-          Barra espaciadora para girar · {temas.length} temas en el mazo
+          Barra espaciadora para girar · {temasFiltrados.length} temas en este mazo
         </p>
       </main>
 
