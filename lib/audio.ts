@@ -49,7 +49,6 @@ export function playTick(speed: number) {
   osc.type = "triangle";
   osc.frequency.value = 950;
 
-  // Solo se amplifica el pico a 0.90 (antes 0.22) manteniendo tiempos exactos
   envelope(c, gain, 0.90, 0.002, 0.045);
 
   osc.connect(filter);
@@ -60,25 +59,35 @@ export function playTick(speed: number) {
   osc.stop(c.currentTime + 0.08);
 }
 
-/** Tono suave al detenerse el tema. */
+/** Acorde de llegada firme y brillante ("correcto") al detenerse en el tema. */
 export function playLand() {
   const c = getCtx();
   if (!c) return;
   const now = c.currentTime;
-  const freqs = [392, 523.25];
+
+  // Acorde Do Mayor brillante: G4 (392Hz), C5 (523.25Hz), E5 (659.25Hz)
+  const freqs = [392, 523.25, 659.25];
+
   freqs.forEach((freq, i) => {
     const osc = c.createOscillator();
     const gain = c.createGain();
+
     osc.type = "sine";
     osc.frequency.setValueAtTime(freq, now);
-    osc.frequency.exponentialRampToValueAtTime(freq * 1.03, now + 0.35);
+    osc.frequency.exponentialRampToValueAtTime(freq * 1.015, now + 0.35);
+
+    // Volumen escalonado fuerte (0.55 el fundamental, 0.45 y 0.38 los armónicos)
+    const peak = 0.55 - i * 0.08;
+
     gain.gain.setValueAtTime(0.0001, now);
-    gain.gain.exponentialRampToValueAtTime(0.045 - i * 0.012, now + 0.03);
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.55);
+    gain.gain.exponentialRampToValueAtTime(peak, now + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.65);
+
     osc.connect(gain);
     gain.connect(c.destination);
+
     osc.start(now);
-    osc.stop(now + 0.58);
+    osc.stop(now + 0.7);
   });
 }
 
